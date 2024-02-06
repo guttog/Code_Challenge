@@ -1,0 +1,16 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "Nesse repositorio aqui vou ter o objetivo de salvar aluns desafios que eu fizer no CodeWars ou LeetCode.\r E vou aproveitar para adicinar algumas anotações explicando oque eu fiz ou oque o código faz para eu aprender.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
