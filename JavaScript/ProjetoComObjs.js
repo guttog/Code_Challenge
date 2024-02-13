@@ -11,7 +11,7 @@ var arr =[
     for(let dados in arr){
         console.log(arr[dados].id); //laço for in para mostar os dados existentes
         }
-    mudar_arr = input.question("Qual ID voce deseja alterar?: "); //input para escolher qual  
+    mudar_arr = input.question("Qual ID voce deseja alterar?: "); //input para escolher qual  ID vai alterar
     
     let escolheu = Number(mudar_arr);
     console.log("ID escolhido: "+arr[escolheu-1].id);
@@ -19,4 +19,6 @@ var arr =[
     let mudou = input.question("Valor para mudar o ID: ");
     console.log(arr[escolheu-1].id = Number(mudou))
     console.log(arr);
+
+    /*falta montar a parte do nome, e testar com coleções de objs maiores */
 };
