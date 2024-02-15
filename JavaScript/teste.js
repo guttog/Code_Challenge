@@ -1,13 +1,23 @@
-import input from 'readline-sync'
+let carro = { nome: "Argo", marca: "Fiat", preco: 50000, ano: 2020 };
 
-var arr = ['banana','abacaxi','laranja'];
-console.log("Escolha um item: 1)"+arr[0]+", 2)"+arr[1]+", 3)" +arr[2]+ ", 4) Sair")
+let percentual_desconto = 5;
 
-var num = input.question("Digite um numero: ");
+for ( let propriedade in carro ) {
 
-while(num != 4){
-    
-        var item_selecionado = arr[num-1]
-        console.log(item_selecionado)
-        continue;
-};
+    if ( propriedade == "preco" ) {
+
+        let preco = propriedade;
+
+        let desconto = ( carro[preco] * percentual_desconto ) / 100;
+
+        let novo_preco = carro[preco] - desconto;
+
+        console.log("novo preço: R$" + novo_preco + ",00");
+
+    } else {
+
+        console.log(propriedade + ": " + carro[propriedade]);
+
+    }
+
+}
