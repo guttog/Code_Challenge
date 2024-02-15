@@ -1,25 +1,13 @@
 import input from 'readline-sync'
 
 var arr =[ 
-    {id: 1, nome: "", idade: 0},
-    {id: 2, nome: "", idade: 0},
-    {id: 3, nome: "", idade: 0},
-    {id: 4, nome: "", idade: 0},
-    {id: 5, nome: "", idade: 0},
-    {id: 6, nome: "", idade: 0},
-    {id: 7, nome: "", idade: 0},
-    {id: 8, nome: "", idade: 0},
-    {id: 9, nome: "", idade: 0},
-    {id: 10, nome: "", idade: 0},
-    {id: 11, nome: "", idade: 0},
-    {id: 12, nome: "", idade: 0},
-    {id: 13, nome: "", idade: 0},
-    {id: 14, nome: "", idade: 0},
-    {id: 15, nome: "", idade: 0},
-    {id: 16, nome: "", idade: 0},
-    {id: 17, nome: "", idade: 0},
-    {id: 18, nome: "", idade: 0}
+    {id: 1, nome: "César", idade: 20},
+    {id: 2, nome: "Guto", idade: 19},
+    {id: 3, nome: "Julio", idade: 43},
+    {id: 4, nome: "Gaiotto", idade: 80},
+    {id: 5, nome: "Alves", idade: 53}
 ];
+   
   
     let mudar_arr = input.question("Qual valor voce deseja alterar? (3)Sair (1)Idade ou (2)Nome: "); //input para escolher ID ou Nome
     if (Number(mudar_arr) == 1){
