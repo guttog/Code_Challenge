@@ -1,11 +1,19 @@
-let arr =[
-    {id:1, nome:"Argo"},
-    {id:2, nome:"Renault"}
+let noticias =[
+    {noticia:"noticia 1 com status 0", status: 0},
+    {noticia:"noticia 1 com status 1", status: 1},
+    {noticia:"noticia 2 com status 0", status: 0},
+    {noticia:"noticia 3 com status 0", status: 0},
+    {noticia:"noticia 2 com status 1", status: 1},
+    {noticia:"noticia 3 com status 1", status: 1}
 ];
 
-for(let i of arr){
-    let nome = i.id;
-    console.log(nome[0].id);
-};
-
-// console.log(arr[1].nome);
+for(let dados of noticias){
+    let noticia = dados.noticia
+    let status = dados.status
+    
+    if (status == 1 ){
+        continue;
+    }
+    console.log(noticias)
+    console.log(noticia)
+}
