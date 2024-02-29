@@ -14,6 +14,5 @@ function divisors(integer) {
   }
 };
 console.log(divisors(8));
-
 //LEMBRETE
 //numero primo só é divisivel por 1 ou por ele mesmo
