@@ -11,6 +11,6 @@ function getMiddle(s)
     }
 }
 //LEMBRETE: Esse desafio foi para encontrar as letrar do meio da string, indenpendente se é par ou impar
-console.log(getMiddle("test"));
-console.log(getMiddle("testing"));
-console.log(getMiddle("middle"));
+console.log(getMiddle("test"));//es - par
+console.log(getMiddle("testing"));//t - impar
+console.log(getMiddle("middle"));//dd - par
