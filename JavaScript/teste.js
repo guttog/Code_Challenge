@@ -1,13 +1,10 @@
-const str = "Let's travel abroad shall we";
+let num = 0;
 
-var arr = str.split(" ");
-
-for(var i = 0; i < arr.length; i++){
-    var menor_tamanho = Math.min(arr[i].length)
-
-}
-if(arr[i].length == menor_tamanho){
-    console.log("É o menor")
+while(num >= 0){
+  var result = 2 ** num
+  num--
+  console.log(result);
 }
 
-// https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/train/javascript VER AGORA!!
+
+// https://www.codewars.com/kata/57a083a57cb1f31db7000028/train/javascript
